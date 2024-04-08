@@ -1,0 +1,248 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6b5b95;
+    color: white;
+    margin: 0px;
+}
+
+
+header {
+    background-color: white;
+    padding: 10px;
+}
+.animated {
+    background-color: #6b5b95;
+    padding: 50px;
+    text-align:justify;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #6b5b95;
+    padding: 0.8rem;
+    ;
+}
+
+a:hover {
+    transform: scale(1.1);
+    background-color: #6b5b95;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin:0%;
+    overflow:visible;
+    
+}
+
+.card-img {
+    width:18rem;
+    height:300px;
+    display:block;
+}
+
+.card-content {
+    padding: 15px;
+
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 10px;
+    color: #6b5b95;
+    padding: 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #6b5b95;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.5s ease;
+  
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+    background: #6b5b95;
+}
+
+
+
+section {
+    background-color: #6b5b95;
+    padding: 50px;
+    text-align:justify;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+      
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6b5b95;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #6b5b95;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #fff;
+}
+
+
+
+footer {
+    background-color: white;
+
+    color: #6b5b95;
+
+    text-align: center;
+
+    padding: 5px;
+
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #6b5b95;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+
+button:hover {
+    background-color: #6b5b95;
+}
+
+.servicesSectiion{
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.animated {
+    animation: fadeIn 3s ease-in-out;
+}
+
+
+@media (min-width: 1200px) {
+
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    section {
+        padding: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    \  section {
+        padding: 30px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    section {
+        padding: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        padding: 0px;
+    }
+}
